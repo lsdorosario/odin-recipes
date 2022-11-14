@@ -1,4 +1,38 @@
 body {
     font-family: 'Times New Roman', sans-serif;
     background-color: #e4d5b7;
+    margin: 85px 250px;
+    text-align: center;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+.main-image {
+    width: 225px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    font-size: 22px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.recipe-list {
+    list-style-type: none;
+}
+
+.recipe-list li {
+    font-size: 18px;
+    padding: 4px;   
+}
+
+li a {
+    text-decoration: none;
 }
