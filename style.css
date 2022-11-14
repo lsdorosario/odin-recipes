@@ -1,7 +1,7 @@
 body {
     font-family: 'Times New Roman', sans-serif;
     background-color: #e4d5b7;
-    margin: 85px 250px;
+    margin: 50px 250px;
     text-align: center;
 }
 
@@ -9,6 +9,7 @@ body {
     font-size: 50px;
     font-weight: bold;
     color: #8b0000;
+    margin-bottom: 20px;
 }
 
 .main-image {
@@ -21,18 +22,35 @@ body {
 .subtitle {
     font-size: 22px;
     font-style: italic;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.recipe-list {
-    list-style-type: none;
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 6px;
 }
 
-.recipe-list li {
+ul {
+    margin-bottom: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+ul li,
+ol li {
     font-size: 18px;
     padding: 4px;   
 }
 
 li a {
     text-decoration: none;
+}
+
+li em {
+    font-style: italic;
 }
